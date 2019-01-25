@@ -3,75 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <title>Project Status</title>
+    <style>
+        table {
+            width: 100%;
+            border-spacing: 15px;
+        }
+        img {  height: 100%;}
+        tr {
+            height: 40px;
+            border-top: thin solid black;
+        }
+        td {
+            height: 40px;
+            font-weight: 400;
+            font-size: 200%;
+            font-family: 'Helvetica Neue', 'Helvetica', 'Open Sans', 'Arial';
+        }
+    </style>
 </head>
 <body>
 
 <table>
     <tr>
-        <th>Project</th>
-        <th>Pull Requests</th>
-        <th>Travis</th>
-        <th>Codecov</th>
-        <th>Codefactor</th>
-        <th>Docs</th>
-    </tr>
-
-    <tr>
         <td>Plaso</td>
-        <td><img src="https://travis-ci.org/log2timeline/plaso.svg?branch=master" /></td>
-        <td><img src="https://img.shields.io/github/issues-pr/log2timeline/plaso.svg?style=for-the-badge&" /></td>
-        <td><img src="https://codecov.io/gh/log2timeline/plaso/branch/master/graph/badge.svg" /></td>
-        <td><img src="https://www.codefactor.io/repository/github/log2timeline/plaso/badge" alt="CodeFactor" /><td>
-        <td><img src='https://readthedocs.org/projects/plaso/badge/?version=latest' alt='Documentation Status' /></td>
+        <td><img src="https://travis-ci.org/log2timeline/plaso.svg?branch=master&style=for-the-badge"/></td>
+        <td><img src="https://img.shields.io/github/issues-pr/log2timeline/plaso.svg?style=for-the-badge"/></td>
+        <td><img src="https://codecov.io/gh/log2timeline/plaso/branch/master/graph/badge.svg?style=for-the-badge"/></td>
+        <td><img src="https://www.codefactor.io/repository/github/log2timeline/plaso/badge?style=for-the-badge"/></td>
+        <td><img src="https://img.shields.io/readthedocs/plaso.svg?style=for-the-badge"/></td>
     </tr>
 
     <tr>
-        <td>DFTimewolf</td>
-        <td><img src="https://travis-ci.org/log2timeline/dfTimewolf.svg?branch=master" /></td>
-        <td><img src="https://img.shields.io/github/issues-pr/log2timeline/dftimewolf.svg?style=for-the-badge&logo=appveyor" /></td>
-        <td><img src="https://codecov.io/gh/log2timeline/dfTimewolf/branch/master/graph/badge.svg" /></td>
-        <td><img src="https://www.codefactor.io/repository/github/log2timeline/dfTimewolf/badge" alt="CodeFactor" /><td></td>
-        <td><img src='https://readthedocs.org/projects/dfTimewolf/badge/?version=latest' alt='Documentation Status' /></td>
+        <td>dfTimewolf</td>
+        <td><img src="https://travis-ci.org/log2timeline/dftimewolf.svg?branch=master&style=for-the-badge"/></td>
+        <td><img src="https://img.shields.io/github/issues-pr/log2timeline/dftimewolf.svg?style=for-the-badge"/></td>
+        <td><img src="https://codecov.io/gh/log2timeline/dftimewolf/branch/master/graph/badge.svg?style=for-the-badge"/></td>
+        <td><img src="https://www.codefactor.io/repository/github/log2timeline/dftimewolf/badge?style=for-the-badge"/></td>
+        <td><img src="https://img.shields.io/readthedocs/dftimewolf.svg?style=for-the-badge"/></td>
+    </tr>
+
+    <tr>
+        <td>dfDatetime</td>
+        <td><img src="https://travis-ci.org/log2timeline/dfdatetime.svg?branch=master&style=for-the-badge"/></td>
+        <td><img src="https://img.shields.io/github/issues-pr/log2timeline/dfdatetime.svg?style=for-the-badge"/></td>
+        <td><img src="https://codecov.io/gh/log2timeline/dfdatetime/branch/master/graph/badge.svg?style=for-the-badge"/></td>
+        <td><img src="https://www.codefactor.io/repository/github/log2timeline/dfdatetime/badge?style=for-the-badge"/></td>
+        <td><img src="https://img.shields.io/readthedocs/dfdatetime.svg?style=for-the-badge"/></td>
+    </tr>
+    
+    <tr>
+        <td>dfVFS</td>
+        <td><img src="https://travis-ci.org/log2timeline/dfvfs.svg?branch=master&style=for-the-badge"/></td>
+        <td><img src="https://img.shields.io/github/issues-pr/log2timeline/dfvfs.svg?style=for-the-badge"/></td>
+        <td><img src="https://codecov.io/gh/log2timeline/dfvfs/branch/master/graph/badge.svg?style=for-the-badge"/></td>
+        <td><img src="https://www.codefactor.io/repository/github/log2timeline/dfvfs/badge?style=for-the-badge"/></td>
+        <td><img src="https://img.shields.io/readthedocs/dfvfs.svg?style=for-the-badge"/></td>
+    </tr>
+    
+    <tr>
+        <td>dfWinReg</td>
+        <td><img src="https://travis-ci.org/log2timeline/dfwinreg.svg?branch=master&style=for-the-badge"/></td>
+        <td><img src="https://img.shields.io/github/issues-pr/log2timeline/dfwinreg.svg?style=for-the-badge"/></td>
+        <td><img src="https://codecov.io/gh/log2timeline/dfwinreg/branch/master/graph/badge.svg?style=for-the-badge"/></td>
+        <td><img src="https://www.codefactor.io/repository/github/log2timeline/dfwinreg/badge?style=for-the-badge"/></td>
+        <td><img src="https://img.shields.io/readthedocs/dfwinreg.svg?style=for-the-badge"/></td>
+    </tr>
+    
+    <tr>
+        <td>l2tDevtools</td>
+        <td><img src="https://travis-ci.org/log2timeline/l2tdevtools.svg?branch=master&style=for-the-badge"/></td>
+        <td><img src="https://img.shields.io/github/issues-pr/log2timeline/l2tdevtools.svg?style=for-the-badge"/></td>
+        <td><img src="https://codecov.io/gh/log2timeline/l2tdevtools/branch/master/graph/badge.svg?style=for-the-badge"/></td>
+        <td><img src="https://www.codefactor.io/repository/github/log2timeline/l2tdevtools/badge?style=for-the-badge"/></td>
+        <td><img src="https://img.shields.io/readthedocs/l2tdevtools.svg?style=for-the-badge"/></td>
+    </tr>
+
+    <tr>
+        <td>l2tScaffolder</td>
+        <td><img src="https://travis-ci.org/log2timeline/l2tscaffolder.svg?branch=master&style=for-the-badge"/></td>
+        <td><img src="https://img.shields.io/github/issues-pr/log2timeline/l2tscaffolder.svg?style=for-the-badge"/></td>
+        <td><img src="https://codecov.io/gh/log2timeline/l2tscaffolder/branch/master/graph/badge.svg?style=for-the-badge"/></td>
+        <td><img src="https://www.codefactor.io/repository/github/log2timeline/l2tscaffolder/badge?style=for-the-badge"/></td>
+        <td><img src="https://img.shields.io/readthedocs/l2tscaffolder.svg?style=for-the-badge"/></td>
     </tr>
 
     <tr>
         <td>Turbinia</td>
-        <td><img src="https://travis-ci.org/google/turbinia.svg?branch=master" /></td>
-        <td><img src="https://img.shields.io/github/issues-pr/google/turbinia.svg" /></td>
-        <td><img src="https://codecov.io/gh/google/turbinia/branch/master/graph/badge.svg" /></td>
-        <td><img src="https://www.codefactor.io/repository/github/google/turbinia/badge" alt="CodeFactor" /><td></td>
-        <td><img src='https://readthedocs.org/projects/turbinia/badge/?version=latest' alt='Documentation Status' /></td>
+        <td><img src="https://travis-ci.org/google/turbinia.svg?branch=master&style=for-the-badge"/></td>
+        <td><img src="https://img.shields.io/github/issues-pr/google/turbinia.svg?style=for-the-badge"/></td>
+        <td><img src="https://codecov.io/gh/google/turbinia/branch/master/graph/badge.svg?style=for-the-badge"/></td>
+        <td><img src="https://www.codefactor.io/repository/github/google/turbinia/badge?style=for-the-badge"/></td>
+        <td><img src="https://img.shields.io/readthedocs/turbinia.svg?style=for-the-badge"/></td>
     </tr>
 
     <tr>
         <td>Timesketch</td>
-        <td><img src="https://travis-ci.org/google/timesketch.svg?branch=master" /></td
-        <td><img src="https://img.shields.io/github/issues-pr/google/timesketch.svg" /></td>
-        <td><img src="https://codecov.io/gh/google/timesketch/branch/master/graph/badge.svg" /></td>
-        <td><img src="https://www.codefactor.io/repository/github/google/timesketch/badge" alt="CodeFactor" /><td></td>
-        <td><img src='https://readthedocs.org/projects/timesketch/badge/?version=latest' alt='Documentation Status' /></td>
+        <td><img src="https://travis-ci.org/google/timesketch.svg?branch=master&style=for-the-badge"/></td>
+        <td><img src="https://img.shields.io/github/issues-pr/google/timesketch.svg?style=for-the-badge"/></td>
+        <td><img src="https://codecov.io/gh/google/timesketch/branch/master/graph/badge.svg?style=for-the-badge"/></td>
+        <td><img src="https://www.codefactor.io/repository/github/google/timesketch/badge?style=for-the-badge"/></td>
+        <td><img src="https://img.shields.io/readthedocs/timesketch.svg?style=for-the-badge"/></td>
     </tr>
 
     <tr>
         <td>Giftstick</td>
-        <td><img src="https://travis-ci.org/google/giftstick.svg?branch=master" /></td>
-                <td><img src="https://img.shields.io/github/issues-pr/google/gifstick.svg" /></td>
-
-        <td><img src="https://codecov.io/gh/google/giftstick/branch/master/graph/badge.svg" /></td>
-        <td><img src="https://www.codefactor.io/repository/github/google/giftstick/badge" alt="CodeFactor" /><td></td>
-        <td><img src='https://readthedocs.org/projects/giftstick/badge/?version=latest' alt='Documentation Status' /></td>
+        <td><img src="https://travis-ci.org/google/giftstick.svg?branch=master&style=for-the-badge"/></td>
+        <td><img src="https://img.shields.io/github/issues-pr/google/giftstick.svg?style=for-the-badge"/></td>
+        <td><img src="https://codecov.io/gh/google/giftstick/branch/master/graph/badge.svg?style=for-the-badge"/></td>
+        <td><img src="https://www.codefactor.io/repository/github/google/giftstick/badge?style=for-the-badge"/></td>
+        <td><img src="https://img.shields.io/readthedocs/giftstick.svg?style=for-the-badge"/></td>
     </tr>
 
     <tr>
         <td>Docker-Explorer</td>
-        <td><img src="https://travis-ci.org/google/docker-explorer.svg?branch=master" /></td>
-        <td><img src="https://img.shields.io/github/issues-pr/google/docker-explorer.svg" /></td>
-        <td><img src="https://codecov.io/gh/google/docker-explorer/branch/master/graph/badge.svg" /></td>
-        <td><img src="https://www.codefactor.io/repository/github/google/docker-explorer/badge" alt="CodeFactor" /><td></td>
-        <td><img src='https://readthedocs.org/projects/docker-explorer/badge/?version=latest' alt='Documentation Status' /></td>
+        <td><img src="https://travis-ci.org/google/docker-explorer.svg?branch=master&style=for-the-badge"/></td>
+        <td><img src="https://img.shields.io/github/issues-pr/google/docker-explorer.svg?style=for-the-badge"/></td>
+        <td><img src="https://codecov.io/gh/google/docker-explorer/branch/master/graph/badge.svg?style=for-the-badge"/></td>
+        <td><img src="https://www.codefactor.io/repository/github/google/docker-explorer/badge?style=for-the-badge"/></td>
+        <td><img src="https://img.shields.io/readthedocs/docker-explorer.svg?style=for-the-badge"/></td>
     </tr>
-
-
 
 </table>
 
